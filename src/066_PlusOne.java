@@ -2,7 +2,7 @@
 // [1,0] -> [1,1]
 // [9,9,9] -> [1,0,0,0]
 
-// time: O(n)   Space: O(1)
+// time: O(n)   Space: O(n)
 
 class Solution {
   public int[] plusOne(int[] digits) {
