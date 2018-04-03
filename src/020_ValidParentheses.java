@@ -1,7 +1,7 @@
 class Solution {
   public boolean isValid(String s) {
     String left = "([{";
-    String right = "}])";
+    String right = ")]}";
     Stack<Character> strStack = new Stack<>();
 
     for (int i = 0; i < s.length() ; i++ ) {
